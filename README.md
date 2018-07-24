@@ -1,6 +1,17 @@
 frontend-nanodegree-arcade-game
 ===============================
+### How to run the game
+To run the game simply open the file index.html in your browser.
+After all the in game elements load the enemies should start spawning and
+you can start moving the main character.
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+### Controls
+You can control the player sprite using your arrow keys for the systems which
+have arrow keys. I have not tested it on mobile so no idea how to use it.
+Up key will move the player up, left will move it to left and so on.
+Each key press will move the character a certain distance.
+Long key press will do nothing. Player can not move out of the game area.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+### How to win or not lose
+Player loses if it touches the enemy i.e. the moving bugs. If it reaches the
+water then he has won the game.
